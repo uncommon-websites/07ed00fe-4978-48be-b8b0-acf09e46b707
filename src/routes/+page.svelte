@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Effortless style for modern wardrobes"
+	subtitle="Curated essentials that actually sell through. We partner with contemporary boutiques to identify seasonless pieces that drive sales and delight customers."
+	imageSrc="/generated/image-a-group-of-professional-fashion-stylists.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading fashion retailers"
+	logoUrls={[
+		'https://cdn.brandfetch.io/net-a-porter.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/ssense.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/matchesfashion.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/farfetch.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
