@@ -32,54 +32,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Mei-Lin Chen",
+			position: "Fashion Buyer",
+			company: "Nordstrom Contemporary",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"ONE OF OTHERS cut our seasonal buying time by 40%. Their curated selections consistently sell through at 85% rates, compared to our previous 60% average.\nNo more risky gambles on trends that don't translate to sales.",
+			image: "/generated/image-professional-headshot-of-a-confident-asi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Keisha Williams",
+			position: "Head Stylist",
+			company: "Revolve Group",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Their seasonless pieces solved our biggest challenge - creating versatile looks that work year-round. We've reduced our styling prep time by 50%.\nClients love the investment pieces that work across multiple seasons and occasions.",
+			image: "/generated/image-professional-headshot-of-a-confident-bla.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Isabella Rodriguez",
+			position: "Buying Director",
+			company: "Net-A-Porter Contemporary",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The quality-to-price ratio is unmatched. We've seen 30% higher margins and virtually zero returns on their pieces.\nOur inventory moves faster, and customers keep coming back for more from these collections.",
+			image: "/generated/image-professional-headshot-of-a-confident-his.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why buyers choose us"
+	subtitle="Strategic advantages that drive sales and delight customers"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Curated seasonless essentials",
+			description: "Our expert buyers identify versatile pieces that transcend trends, ensuring every item moves through inventory quickly while building customer loyalty.",
+			imageSrc: "/generated/image-a-fashion-buyer-thoughtfully-examining-m.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Proven sales performance",
+			description: "Each piece is selected based on data-driven insights from successful retailers, guaranteeing higher sell-through rates and reduced markdowns.",
+			imageSrc: "/generated/image-a-clean-organized-retail-space-with-cont.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Expert styling guidance",
+			description: "Our stylists provide complete outfit coordination and merchandising recommendations that help your customers visualize complete looks.",
+			imageSrc: "/generated/image-a-fashion-stylist-arranging-a-selection-.webp"
+		},
+		{
+			title: "Premium quality assurance",
+			description: "Every garment meets strict quality standards for fabric, construction, and fit, ensuring customer satisfaction and minimizing returns.",
+			imageSrc: "/generated/image-a-contemporary-fashion-buyer-reviewing-q.webp"
+		},
+		{
+			title: "Trend forecasting insights",
+			description: "Access early trend intelligence and market analysis that keeps your inventory ahead of customer demand while maintaining timeless appeal.",
+			imageSrc: "/generated/image-a-professional-fashion-trend-analysis-wo.webp"
+		},
+		{
+			title: "Flexible ordering terms",
+			description: "Minimum orders designed for boutiques with seasonal payment terms and exchange policies that reduce financial risk.",
+			imageSrc: "/generated/image-a-modern-boutique-interior-featuring-a-c.webp"
 		}
 	]}
 />
