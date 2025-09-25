@@ -26,9 +26,8 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We curate seasonless essentials that transcend trends, helping contemporary boutiques build wardrobes their customers actually want. Our expert selection process identifies versatile, high-quality pieces that drive sales and reduce inventory risk."
 />
 
 <Testimonials
@@ -96,5 +95,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Ready to curate with confidence?"
+	subtitle="Apply for access today"
+	description="Stop guessing what will sell. Join the boutiques building wardrobes their customers actually want—with pieces that move off the rack faster and generate better margins. Apply now to access our curated seasonless collections."
+	imageSrc="/generated/image-a-cheerful-professional-fashion-buyer-si.webp"
+	callsToAction={[
+		{
+			href: "/apply",
+			label: "Apply for access",
+			variant: "primary"
+		},
+		{
+			href: "/showcase",
+			label: "View collections",
+			variant: "secondary"
+		}
+	]}
+/>
