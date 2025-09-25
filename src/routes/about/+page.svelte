@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Timeless design",
+			description: "Creating pieces that transcend seasons and trends, offering enduring style that remains relevant year after year."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Curated quality",
+			description: "Selecting only the finest materials and craftsmanship, ensuring each piece meets the highest standards for contemporary retail."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Modern versatility",
+			description: "Designing collections that seamlessly integrate into any wardrobe, providing endless styling possibilities for the modern customer."
 		}
 	];
 </script>
@@ -44,7 +44,7 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
@@ -97,8 +97,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to elevate your collection?"
+	subtitle="Partner with us"
+	description="Join forward-thinking boutiques and stylists who trust our curated pieces to drive sales and delight customers with timeless, versatile fashion."
+	imageSrc="/generated/image-a-professional-fashion-buyer-examines-cl.webp"
 />
